@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">swiftmind</string>
+
+    <!-- Intro slides -->
+    <string name="intro_slide1_header">Hello, Welcome to SwiftMind!</string>
+    <string name="intro_slide1_body">We at SwiftMind, help track your mental health</string>
+    <string name="intro_slide2_header">Journal</string>
+    <string name="intro_slide2_body">Best way to pen down your feelings is by using the Journal.</string>
+    <string name="intro_slide3_header">Mood Graph</string>
+    <string name="intro_slide3_body">Mood Graph lets you track your mood history.</string>
+    <string name="intro_slide4_header">Suggestions</string>
+    <string name="intro_slide4_body">Find ways to feel better, through the suggested videos and articles.</string>
+    <string name="intro_slide5_header">Tracking</string>
+    <string name="intro_slide5_body">Knowing mood better, by tracking your movementts.</string>
+    <string name="intro_slide6_header">Feedback</string>
+    <string name="intro_slide6_body">Leave your kind and genuine reviews about the application.</string>
+
+    <!-- BottomNavigationView strings -->
+    <string name="menu_journal">Journal</string>
+    <string name="menu_resources">Resources</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_settings">Settings</string>
+</resources>

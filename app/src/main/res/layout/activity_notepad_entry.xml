@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAppSecondary"
+    android:orientation="vertical"
+    tools:context=".NotepadEntry">
+
+
+    <EditText
+        android:id="@+id/entry_title"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:hint="Title"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/entry_body"
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        android:hint="Spill out your thoughts and emotions "
+        android:textColor="@android:color/darker_gray"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/save_entry"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@android:color/darker_gray"
+        android:text="Save"
+        android:textColor="@color/colorAlertDialogBackground"
+        android:textSize="20sp" />
+</LinearLayout>
